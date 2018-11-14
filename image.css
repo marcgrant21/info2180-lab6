@@ -1,0 +1,41 @@
+#def-pane{
+	margin: auto;
+	position: relative;
+	height: 800px;
+	width: 800px;
+}
+
+#top-banner{
+	background-color: purple;
+	height: 150px;
+	padding-bottom: 5px;
+}
+
+#top-banner h1 {
+	color: white;
+	margin-left: 15px;
+	position: absolute; 
+	
+}
+
+#search-pane{
+	background-color: lightgrey;
+}
+
+#search,#result-pane{
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+#search {
+	border-bottom: solid 1px grey;
+	padding-bottom: 5px;
+}
+
+#result-pane{
+	padding-top: 8px;
+}
+
+#result{
+	padding-bottom: 5px;
+}

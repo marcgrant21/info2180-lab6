@@ -1,15 +1,29 @@
 <!DOCTYPE html>
 <html>
-<body>
-    <h1> Definition </h1>
-
-<button onclick="myFunction()">Search</button>
-
-<script>
-function myFunction() {
-    alert("Definition");
-}
-</script>
-
-</body>
+    <head>
+	    <title>Lab 6 | Web Definition</title>
+	    <link href="lab6.css" type="text/css" rel="stylesheet">
+	    <script type="text/javascript" src="lab6.js"></script>
+	 </head>
+    <body>
+	    <div id="def-pane">
+		    <div id="top-banner">
+			    <h1>Web Dictionary</h1>
+		    </div>
+		    <div id="search-pane">
+			    <div id="search">
+				    <p>Lookup the definition of a word e.g. ajax, html, bar, php, javascript or css.</p>
+                    
+                    <input id = word1 type="text" name="q"/>
+                    <input id = "search1" type="button" value="Search"/>
+                   	<input id = "allDef" type="button" value="Get All Definitions"/>
+                   	
+			    </div>
+			    <div id="result-pane">
+				    <h3>Result</h3>
+				    <div id="result"></div>
+			    </div>
+		    </div>
+	    </div>
+    </body>
 </html>
